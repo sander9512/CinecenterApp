@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Cinecenter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="movie_title">Django Unchained</string>
+    <string name="rate">Rate</string>
+    <string name="price">Price</string>
+    <string name="amount">Amount</string>
+    <string name="total">Total</string>
+    <string name="select_seat_s">Select seat(s)</string>
+    <string-array name="spinner_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <!--Strings for AboutActivity-->
+    <string name="aboutHeader">About us</string>
+    <string name="aboutCinemaHeader">About our cinema</string>
+    <string name="aboutCinemaText">Lorem ipsum dolor sit amet, cu meis percipit consequuntur sit.
+        Hinc mucius ad vim, his an nobis aliquam dolorum, te nec vitae evertitur vulputate. Cu solet
+        timeam efficiendi est, an sed vitae maiorum consetetur. Vix soleat labitur utroque ex, cum
+        ne velit nominavi vivendum.</string>
+    <string name="aboutContactHeader">Contact details</string>
+    <string name="aboutContactText">Lorem ipsum dolor sit amet, cu meis percipit consequuntur sit.
+        Hinc mucius ad vim, his an nobis aliquam dolorum, te nec vitae evertitur vulputate. Cu solet
+        timeam efficiendi est, an sed vitae maiorum consetetur. Vix soleat labitur utroque ex, cum
+        ne velit nominavi vivendum.</string>
+    <string name="aboutRateUsButton">Rate us here! </string>
+
+    <string name="aboutWebsiteLink"><a href="http://www.cinecenter.nl/">Our website</a></string>
+    <string name="googleMapsLink"><a href="https://www.google.nl/maps/place/Cinecenter/@52.364987,4.8795393,17z">Our location on Google Maps</a></string>
+    <string name="_0">0</string>
+    <string name="order">Order</string>
+    <string name="free">Free</string>
+    <string name="your_seat">Your seat</string>
+    <string name="booked">Booked</string>
+    <string name="movie">Movie</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="seats">seats</string>
+    <string name="to_payment">To payment</string>
+    <string name="order_overview">Order overview</string>
+<string name="_1298_00">$1298,00</string>
+<string name="reservations">Reservations</string>
+<string name="recent_viewed">Recently viewed</string>
+<string name="about_us">About us</string>
+<string name="my_tickets">My Reservations</string>
+    </resources>

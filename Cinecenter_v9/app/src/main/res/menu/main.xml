@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="300"
+        android:title="Genre"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/genre_id_0"
+                android:title="All" />
+            <item
+                android:id="@+id/genre_id_28"
+                android:title="Action" />
+            <item
+                android:id="@+id/genre_id_12"
+                android:title="Adventure" />
+            <item
+                android:id="@+id/genre_id_35"
+                android:title="Comedy" />
+            <item
+                android:id="@+id/genre_id_27"
+                android:title="Horror" />
+            <item
+                android:id="@+id/genre_id_37"
+                android:title="Western" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="200"
+        android:title="Search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>

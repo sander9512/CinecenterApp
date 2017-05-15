@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nl.avans.prog3les1.cinecenter.Presentation.GeneralInfoActivity">
+
+    <TextView
+        android:id="@+id/aboutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/aboutHeader"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/aboutCinemaHeader"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:text="@string/aboutCinemaHeader"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/aboutCinemaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutCinemaText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/cinecenter_logo"></ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/aboutContactHeader"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:text="@string/aboutContactHeader"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/aboutContactText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="@string/aboutContactText" />
+
+        <TextView
+            android:id="@+id/aboutWebsiteLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4sp"
+            android:paddingTop="6sp"
+            android:text="@string/aboutWebsiteLink"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/googleMapsLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:paddingBottom="4sp"
+            android:paddingTop="6sp"
+            android:text="@string/googleMapsLink"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <RatingBar
+            android:id="@+id/ratingGeneralInfoView"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:isIndicator="true"
+            android:max="5"
+            android:stepSize="0.5" />
+
+        <Button
+            android:id="@+id/aboutRateUsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/aboutRateUsButton"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
